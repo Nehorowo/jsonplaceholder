@@ -34,19 +34,9 @@ async function getResponses() {
       delete usersContent[key].phone;
       delete usersContent[key].username;
 
-      //add comments to Ervin's posts
 
       console.log(usersContent[key]);
   }
-  usersContent.forEach((user)=>{
-    if (user.name == 'Ervin Howell') {
-      console.log(user.name)
-      user.posts.forEach((post)=>{
-        let postId = post.id;
-        console.log(postId)
-      })
-    }
-  })
   
 }
 
